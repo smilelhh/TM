@@ -1,0 +1,49 @@
+C:\Users\liuhonghua\Desktop\TM\TM\bin\Debug\TM.exe
+C:\Users\liuhonghua\Desktop\TM\TM\bin\Debug\TM.pdb
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.Properties.Resources.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.csproj.GenerateResource.Cache
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.exe
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.pdb
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.FormLogin.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.MainForm.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.InData.resources
+C:\Users\liuhonghua\Desktop\TM\TM\bin\Debug\TM.exe.config
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.csprojResolveAssemblyReference.cache
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.dataModify.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.zflr.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.SearchCountCH.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.SearchCountRF.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.SearchCountRM.resources
+C:\Users\liuhonghua\Desktop\TM\TM\obj\x86\Debug\TM.csproj.ResolveComReference.cache
+D:\程序\执法科\成品\TM\TM\bin\Debug\TM.exe.config
+D:\程序\执法科\成品\TM\TM\obj\x86\Debug\TM.csproj.ResolveComReference.cache
+D:\程序\执法科\成品\TM\TM\obj\x86\Debug\TM.exe
+D:\程序\执法科\成品\TM\TM\obj\x86\Debug\TM.pdb
+C:\Documents and Settings\Administrator\桌面\TM\TM\bin\Debug\TM.exe.config
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.exe
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.pdb
+C:\Documents and Settings\Administrator\桌面\TM\TM\bin\Debug\TM.exe
+C:\Documents and Settings\Administrator\桌面\TM\TM\bin\Debug\TM.pdb
+C:\Documents and Settings\Administrator\桌面\TM\TM\bin\Debug\GemBox.ExcelLite.pdb
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.DataModify.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.InData.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.FormLogin.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.MainForm.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.SearchCountCH.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.SearchCountRF.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.SearchCountRM.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.ZFLR.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.read.6.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.read.8.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.write.4.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.write.6.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.write.8.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\TM.Process.resources
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.read.7.tlog
+C:\Documents and Settings\Administrator\桌面\TM\TM\obj\x86\Debug\GenerateResource-ResGen.write.7.tlog

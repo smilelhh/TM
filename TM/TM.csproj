@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90C9C075-12A1-44B6-BC69-D77DD7C9F56C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TM</RootNamespace>
+    <AssemblyName>TM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GemBox.ExcelLite">
+      <HintPath>..\..\GemBox ExcelLite\bin\Debug\GemBox.ExcelLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataModify.Designer.cs">
+      <DependentUpon>DataModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelOutputSql.cs" />
+    <Compile Include="InData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InData.Designer.cs">
+      <DependentUpon>InData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputExcel.cs" />
+    <Compile Include="Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process.Designer.cs">
+      <DependentUpon>Process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCountCH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCountCH.Designer.cs">
+      <DependentUpon>SearchCountCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchCountCHData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>searchCountCHData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCountRF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCountRF.Designer.cs">
+      <DependentUpon>SearchCountRF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchCountRFData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>searchCountRFData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SearchCountRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchCountRM.Designer.cs">
+      <DependentUpon>SearchCountRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchCountRMData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>searchCountRMData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zflrData.cs">
+      <DependentUpon>zflrData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zflrData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>zflrData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ZFLR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZFLR.Designer.cs">
+      <DependentUpon>ZFLR.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DataModify.resx">
+      <DependentUpon>DataModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InData.resx">
+      <DependentUpon>InData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process.resx">
+      <DependentUpon>Process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCountCH.resx">
+      <DependentUpon>SearchCountCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCountRF.resx">
+      <DependentUpon>SearchCountRF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCountRM.resx">
+      <DependentUpon>SearchCountRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZFLR.resx">
+      <DependentUpon>ZFLR.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="searchCountCHData.xsc">
+      <DependentUpon>searchCountCHData.xsd</DependentUpon>
+    </None>
+    <None Include="searchCountCHData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>searchCountCHData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="searchCountCHData.xss">
+      <DependentUpon>searchCountCHData.xsd</DependentUpon>
+    </None>
+    <None Include="searchCountRFData.xsc">
+      <DependentUpon>searchCountRFData.xsd</DependentUpon>
+    </None>
+    <None Include="searchCountRFData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>searchCountRFData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="searchCountRFData.xss">
+      <DependentUpon>searchCountRFData.xsd</DependentUpon>
+    </None>
+    <None Include="searchCountRMData.xsc">
+      <DependentUpon>searchCountRMData.xsd</DependentUpon>
+    </None>
+    <None Include="searchCountRMData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>searchCountRMData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="searchCountRMData.xss">
+      <DependentUpon>searchCountRMData.xsd</DependentUpon>
+    </None>
+    <None Include="zflrData.xsc">
+      <DependentUpon>zflrData.xsd</DependentUpon>
+    </None>
+    <None Include="zflrData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>zflrData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="zflrData.xss">
+      <DependentUpon>zflrData.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
